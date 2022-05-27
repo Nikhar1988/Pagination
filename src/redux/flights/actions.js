@@ -1,2 +1,0 @@
-export const setFlights = ({payload}) => ({type:"flights/SET_FLIGHTS", payload: {payload}})
-export const editFlights = (id, type, correctTimes, wrongTimes) => ({type:"flights/EDIT_FLIGHTS", payload: {id, type, correctTimes, wrongTimes}})
